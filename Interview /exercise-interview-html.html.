@@ -1,7 +1,5 @@
-
-    <!DOCTYPE html>
+<!DOCTYPE html>
     <html>
-    
       <head>
           <title>Interview in HTML</title>
           <meta charset="utf-8">
@@ -9,8 +7,45 @@
       
       <body>  
         <div id="interview">
-          Coming soon!
-        </div>
+          <h1>The interview of Ayesha Munot</h1>
+          <h2>Bio:</h2>
+          <p><stronge>Ayesha Munot</strong><br></p>
+          <p>India Mumbai<br></p>
+          <p>Ayesha Munot is a sophomore of the Graphic Design major in California College of the Art.<br>
+          Ayesha fell love in design and art before she comes to America. She chooses to study abroad for<br> 
+          further study of her interest. She wasn’t sure to be a graphic design student until she <br>
+          actually is a student in CCA. She builds her love on graphic design by the time she took the <br>
+          class of graphic design. Aysha wants to be an editor for a famous magazine company, in the future.<br> 
+          She also wants to travel around the world on a day, and learn different knowledge of graphic design<br> 
+          by traveling. To find her own design. </p>
+
+          <h2>Conversation</h2>
+          <p><strong>What is ‘good’ screen-based design?</strong></p>
+          <p>The website that is Original, have more interactive with the user. The Website that is colorful,<br> 
+          and 3dimention</p>
+          <p><strong>How is art-making online different then art-making offline?</strong></p>
+          <p>The physical interaction is better when I work online, the feeling of using different materials,<br>
+             and each material has its unique texture. To work online is more just a  visual interaction, but work<br> 
+             online will be much faster.</p>
+          <p><strong>what do you think is the ‘purpose(s)’ of the web?</strong></p>
+          <p>To improve communication between people in the different area. Web also will help share the good<br> 
+             ideals around the world and can help reach the international audience for artist or designers. </p>
+          <p><strong>How has your view of the internet / How you experience being online changed over time?</strong></p>
+          <p>I feel like the future of the internet is unpredictable, the change of the internet world is so fast.<br>
+             You will never know what can happen tomorrow, but the growth of the internet is also a growth of the danger.<br>
+             There is no privacy on the internet. For the good part of the,  grow of the internet is the communication<br>
+            between people become easier.</p>
+          <p><strong>How does the web impact graphic design?</strong></p>
+          <p>The impact is revolutionized how people view graphic design. A lot of the great ideas can be converted to<br>
+             a real product in a quick and cheap way. Web makes everything more accessible and provides a wider audience.<br>
+             Web also makes the graphic design more general to the public.</p>
+          <p><strong>Do graphic designer have to learn coding? </strong></p>
+          <p>To learn what is coding and how to coding is helpful, but not all of the graphic designers have to know coding.<br>
+             I personally think web design is interesting,and I willing to learn more of the coding to make better designs. </p>
+          <p><strong>What is your favorite Adobe program?</strong></p>
+          <p>Photoshop, because I like working with images, and I want to work with the magazines,  so image making is important.<br>
+             I like image making of the Typography too.</p>
+         </div>
       </body>
     
     </html>
