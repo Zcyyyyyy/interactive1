@@ -1,0 +1,108 @@
+
+body {
+    background-image: linear-gradient(rgba(99, 34, 116, 0.959),black);
+   
+    color: lightskyblue;-webkit-font-smoothing: antialiased;
+    font-size: 22px;
+  }
+
+.container { max-width: 200px;
+    margin: 0 auto;
+    
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  body {
+    font-family: "Book Antiqua", Georgia, serif; 
+    font-size: 18px;
+}
+ h2 {
+    font-size:30px;
+    color: rgb(137, 64, 233);
+
+ padding: 0.5em;
+ font-weight: bold;
+ 
+ margin-top: 2em;
+  }
+}
+
+#toc {
+    position:fixed;
+    top: 1em;
+    left: 1em;
+    bottom:1em;
+ /* a background color might help it be differentiated from the rest */
+  background-color: rgba(202, 50, 207, 0.479);
+  /* that means you'll have to change the color of the text */
+  color: lightblue;
+  /* some padding might make it look better */
+  padding: 1em;
+  /* maybe making the font size here smaller will help too */
+  font-size: 0.9em;
+
+
+   
+ }
+
+
+ #toc a {
+    color: rgb(20, 224, 224);
+    text-decoration: none;
+  }
+  
+  
+#toc a:hover {
+    color: rgb(137, 64, 233);
+  }
+
+#toc ul {
+    padding: 0;
+    list-style-type: none;
+    /* you could also change the type of bullet with the above declaration! */
+  }
+
+.highlight {
+    background-color: yellow;
+    color: #587E20;
+    /* or pick a different color */
+  }
+
+
+h1 {
+    /* here I'm making the title not bold (by default headings are always bold)
+       centered, larger, tighter leading, and with some bottom space or margin */
+    font-weight: bold;
+    text-align: center;
+    font-size: 3em;
+    line-height: 1.1;
+    margin-bottom: 2em;
+    color: rgb(23, 241, 231);
+  }
+p{margin-left: 4em;
+  line-height: 30px;
+}
+h3 {
+  font-size:25px;
+  color: rgb(42, 154, 228);
+
+padding: 0.5em;
+font-weight: normal;
+
+margin-top: 2em;}
+h4 {
+  font-size:22px;
+  color: rgb(48, 231, 155);
+
+padding: 0.5em;
+font-weight: normal;
+
+margin-top: 2em;}
+  
+
+  
+img.profile {
+  max-width: 150px;
