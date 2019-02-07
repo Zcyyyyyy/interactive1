@@ -6,7 +6,8 @@ body {
     font-size: 22px;
   }
 
-.container { max-width: 200px;
+.container { 
+    max-width: 80%;
     margin: 0 auto;
     
   }
@@ -27,20 +28,20 @@ body {
  font-weight: bold;
  
  margin-top: 2em;
-  }
 }
+
 
 #toc {
     position:fixed;
     top: 1em;
     left: 1em;
-    bottom:1em;
- /* a background color might help it be differentiated from the rest */
+    
+    padding: 1em;
+
   background-color: rgba(202, 50, 207, 0.479);
-  /* that means you'll have to change the color of the text */
-  color: lightblue;
-  /* some padding might make it look better */
-  padding: 1em;
+  
+  
+  
   /* maybe making the font size here smaller will help too */
   font-size: 0.9em;
 
@@ -51,7 +52,7 @@ body {
 
  #toc a {
     color: rgb(20, 224, 224);
-    text-decoration: none;
+    text-decoration: underline;
   }
   
   
@@ -65,9 +66,9 @@ body {
     /* you could also change the type of bullet with the above declaration! */
   }
 
-.highlight {
-    background-color: yellow;
-    color: #587E20;
+.high {
+    background-color: rgb(194, 22, 22);
+    color: rgb(142, 42, 160);
     /* or pick a different color */
   }
 
@@ -84,6 +85,10 @@ h1 {
   }
 p{margin-left: 4em;
   line-height: 30px;
+  font-family: 'Cormorant', serif;
+  
+ 
+
 }
 h3 {
   font-size:25px;
@@ -106,3 +111,4 @@ margin-top: 2em;}
   
 img.profile {
   max-width: 150px;
+}
