@@ -1,13 +1,13 @@
 
 body {
-    background-image: linear-gradient(rgba(99, 34, 116, 0.959),black);
+    background-image: linear-gradient(rgba(70, 11, 97, 0.959),black);
    
-    color: lightskyblue;-webkit-font-smoothing: antialiased;
+    color: rgb(171, 215, 241);-webkit-font-smoothing: antialiased;
     font-size: 22px;
   }
 
 .container { 
-    max-width: 80%;
+    max-width: 70%;
     margin: 0 auto;
     
   }
@@ -17,7 +17,7 @@ body {
   }
 
   body {
-    font-family: "Book Antiqua", Georgia, serif; 
+    
     font-size: 18px;
 }
  h2 {
@@ -34,16 +34,16 @@ body {
 #toc {
     position:fixed;
     top: 1em;
-    left: 1em;
+    right: 1em;
     
-    padding: 1em;
+    padding: 0.5em;
 
-  background-color: rgba(202, 50, 207, 0.479);
+  background-color: rgba(239, 178, 241, 0.479);
   
   
   
   /* maybe making the font size here smaller will help too */
-  font-size: 0.9em;
+  font-size: 15px;
 
 
    
@@ -60,15 +60,16 @@ body {
     color: rgb(137, 64, 233);
   }
 
-#toc ul {
-    padding: 0;
-    list-style-type: none;
-    /* you could also change the type of bullet with the above declaration! */
-  }
+
 
 .high {
-    background-color: rgb(194, 22, 22);
+    background-color: rgb(128, 212, 238);
+    opacity: 0.7;
     color: rgb(142, 42, 160);
+    font-family: 'BioRhyme', serif;
+    padding: 0.5em;
+    
+
     /* or pick a different color */
   }
 
@@ -82,10 +83,13 @@ h1 {
     line-height: 1.1;
     margin-bottom: 2em;
     color: rgb(23, 241, 231);
+    font-family: 'Inknut Antiqua', serif;
   }
-p{margin-left: 4em;
+p{margin-left: 3em;
   line-height: 30px;
-  font-family: 'Cormorant', serif;
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  color:rgb(247, 233, 171);
   
  
 
@@ -96,13 +100,16 @@ h3 {
 
 padding: 0.5em;
 font-weight: normal;
+font-family: 'BioRhyme', serif;
 
 margin-top: 2em;}
 h4 {
   font-size:22px;
-  color: rgb(48, 231, 155);
+  color: rgb(243, 164, 226);
+  margin-left: 3em;
+  font-family: 'BioRhyme', serif;
 
-padding: 0.5em;
+  
 font-weight: normal;
 
 margin-top: 2em;}
@@ -110,5 +117,36 @@ margin-top: 2em;}
 
   
 img.profile {
-  max-width: 150px;
+  max-width: 250px;
+  margin-left: 4em;
 }
+#mu {font-size:15px;
+  color: rgb(20, 224, 224);
+
+padding: 0.5em;
+font-weight: normal;
+font-family: 'BioRhyme', serif;
+}
+
+#Bio {  font-size:30px;
+  font-family: 'Inknut Antiqua', serif;
+  
+  color: rgb(137, 64, 233);
+
+padding: 0.5em;
+font-weight: bold;
+
+margin-top: 2em;
+}
+
+#Conversation {font-size:30px;
+  color: rgb(137, 64, 233);
+
+padding: 0.5em;
+font-weight: bold;
+
+margin-top: 2em;
+font-family: 'Inknut Antiqua', serif;}
+
+#link{color: rgb(20, 224, 224);
+  text-decoration: underline;}
