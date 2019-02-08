@@ -11,18 +11,23 @@
     background-color: orange;
   }
   #name {font-family: 'Rye', cursive;
-    text-align: center;
+    margin-top: 1.5em;
+      margin-left: 10%;
+      margin-bottom: 1em;
+      margin-right: 30%;
+    
     font-size: 3em;
     color:rgb(246, 249, 253)}
-    p {}
+   
     #exercises {font-family: 'Ceviche One', cursive;
       font-size:35px;
       margin-top: 1em;
       margin-left: 10%;
       margin-bottom: 0.25em;
+      margin-right: 30%;
       color:orange;
       background-color:white;
-      padding: 0.5em;
+      padding: 0.3em;
     opacity:0.95; }
     
     #weekly-exercises {font-family: 'Ceviche One', cursive;
@@ -30,9 +35,10 @@
       margin-top: 1em;
       margin-left: 10%;
       margin-bottom: 0.25em;
+      margin-right: 30%;
       
       background-color:white;
-      padding: 0.5em;
+      padding: 0.3em;
       color:orange;
       opacity:0.95;
     }
@@ -42,18 +48,20 @@
       font-size:35px;
       margin-top: 1em;
       margin-left: 10%;
+      margin-right: 30%;
       margin-bottom: 0.25em;
       color:orange;
       background-color:white;
-      padding: 0.5em;
+      padding: 0.3em;
       opacity:0.95;}
 
       #bio{font-family: 'Emilys Candy', cursive;
-           font-size:20px;
+           font-size:25px;
           color:white; 
           margin-left: 15%;
-          margin-top: 0.5em;
-          margin-bottom: 1.5em;
+          margin-top: 0.2em;
+          
+          margin-bottom: 2em;
           
       }
 
@@ -62,6 +70,6 @@
            font-size:20px;
           color:white; 
           margin-left: 20%;
-          margin-top: 0.15em;
-          margin-bottom: 0.5em;
+          margin-top:0.8em;
+          margin-bottom: 1em;
       }
