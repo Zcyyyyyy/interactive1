@@ -10,3 +10,58 @@
   body {
     background-color: orange;
   }
+  #name {font-family: 'Rye', cursive;
+    text-align: center;
+    font-size: 3em;
+    color:rgb(246, 249, 253)}
+    p {}
+    #exercises {font-family: 'Ceviche One', cursive;
+      font-size:35px;
+      margin-top: 1em;
+      margin-left: 10%;
+      margin-bottom: 0.25em;
+      color:orange;
+      background-color:white;
+      padding: 0.5em;
+    opacity:0.95; }
+    
+    #weekly-exercises {font-family: 'Ceviche One', cursive;
+      font-size:35px;
+      margin-top: 1em;
+      margin-left: 10%;
+      margin-bottom: 0.25em;
+      
+      background-color:white;
+      padding: 0.5em;
+      color:orange;
+      opacity:0.95;
+    }
+  
+    
+    #projects {font-family: 'Ceviche One', cursive;
+      font-size:35px;
+      margin-top: 1em;
+      margin-left: 10%;
+      margin-bottom: 0.25em;
+      color:orange;
+      background-color:white;
+      padding: 0.5em;
+      opacity:0.95;}
+
+      #bio{font-family: 'Emilys Candy', cursive;
+           font-size:20px;
+          color:white; 
+          margin-left: 15%;
+          margin-top: 0.5em;
+          margin-bottom: 1.5em;
+          
+      }
+
+      .section {font-family: 'Sedgwick Ave', cursive;
+        font-family: 'Emilys Candy', cursive;
+           font-size:20px;
+          color:white; 
+          margin-left: 20%;
+          margin-top: 0.15em;
+          margin-bottom: 0.5em;
+      }
