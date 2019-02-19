@@ -21,8 +21,10 @@ body {
         height: 350px;
         background-color: lightpink;
         /*middle*/
-        margin: 0 auto;
+        
         position: relative;
+        left:115px;
+        
 
 
     }
