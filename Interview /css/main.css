@@ -1,9 +1,10 @@
 
 body {
-    background-image: linear-gradient(rgba(70, 11, 97, 0.959),black);
+    /*background-image: linear-gradient(rgba(70, 11, 97, 0.959),black);*/
    
     color: rgb(171, 215, 241);-webkit-font-smoothing: antialiased;
     font-size: 22px;
+    animation: body 1s alternate infinite;
   }
 
 .container { 
@@ -64,6 +65,7 @@ body {
 
 .high {
     background-color: rgb(128, 212, 238);
+    border-radius: 10gypx;
     opacity: 0.7;
     color: rgb(142, 42, 160);
     font-family: 'BioRhyme', serif;
@@ -150,3 +152,8 @@ font-family: 'Inknut Antiqua', serif;}
 
 #link{color: rgb(20, 224, 224);
   text-decoration: underline;}
+ 
+  @keyframes body {
+    0% {background-color: blueviolet}
+    100% {background-color: cadetblue}
+  }

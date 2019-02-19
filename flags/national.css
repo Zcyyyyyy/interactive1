@@ -1,0 +1,78 @@
+
+    /* reset styles */
+    * {
+        margin: 0px; padding: 0px;
+}
+
+/* make the background of the page black */
+body {
+        background: black;
+}
+
+/* flag canvas */
+.father{
+	
+	
+width: 500px;
+height: 300px;
+position: relative;
+	
+	background-color:red;
+}
+.star_main{
+	color:#FCD116; 
+	font-size:3.3em;
+	width:30px;
+	height:30px;
+	/*让star漂浮*/
+	float:left;
+	/*定位*/
+	margin-left:23px;
+    margin-top:20px;
+}
+.star1{
+	color:#FCD116; 
+	font-size:1em;
+	width:5px;
+	height:5px;
+	/*让star漂浮*/
+	float:left;
+	/*定位*/
+	margin-left:23px;
+	margin-top:20px;
+}
+.star2{
+	color:#FCD116; 
+	font-size:1em;
+	width:5px;
+	height:5px;
+	/*让star漂浮*/
+	float:left;
+	/*定位*/
+	margin-left:12px;
+	margin-top:35px;
+}
+.star3{
+	color:#FCD116; 
+	font-size:1em;
+	width:5px;
+	height:5px;
+	/*让star漂浮*/
+	float:left;
+	/*定位*/
+	margin-left:-5px;
+	margin-top:57px;
+}
+.star4{
+	color:#FCD116; 
+	font-size:1em;
+	width:5px;
+	height:5px;
+	/*让star漂浮*/
+	float:left;
+	/*定位*/
+	margin-left:-20px;
+    margin-top:75px;
+}
+
+
