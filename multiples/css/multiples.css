@@ -9,7 +9,7 @@ body {
 }
 #desktop {
     display: inline;
-    color: white;
+    color: black;
     display: inline;
 }
 img {width: 100%;
@@ -22,7 +22,7 @@ img {width: 100%;
 /* tablet */
 @media (min-width: 670px) and (max-width: 1024px) {
     body {
-        background: grey;
+        background: black;
     }
     #tablet {
         display: inline;
@@ -37,7 +37,7 @@ img {width: 100%;
 /* mobile */
 @media (max-width: 670px) {
     body {
-        background: white;
+        background: black;
     }
     #mobile {
         display: inline;
@@ -52,11 +52,11 @@ img {width: 100%;
 /* print */
 @media print {
     body {
-        background: white;
+        background: black;
     }
     #print {
         display: inline;
-        color: black;
+        color: white;
         font-family: 'Rye', cursive;
         font-size: 30pt;
     }
