@@ -10,6 +10,9 @@ body {
 #desktop {
     display: inline;
     color: white;
+    display: inline;
+}
+img {width: 100%;
 }
 #tablet,
 #mobile,
@@ -54,6 +57,8 @@ body {
     #print {
         display: inline;
         color: black;
+        font-family: 'Rye', cursive;
+        font-size: 30pt;
     }
     #desktop,
     #tablet,
