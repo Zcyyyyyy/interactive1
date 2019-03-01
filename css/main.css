@@ -8,7 +8,9 @@
   /* begin styles */
   
   body {
-    background-color: orange;
+    background-image: url("../image/loop-background-6.jpg");
+    background-size: cover;
+    
   }
   #name {font-family: 'Rye', cursive;
     margin-top: 1.5em;
@@ -17,43 +19,99 @@
       margin-right: 30%;
     
     font-size: 3em;
-    color:rgb(246, 249, 253)}
+    color:white}
+
+    #name:hover {
+      color: brown;
+    }
    
     #exercises {font-family: 'Ceviche One', cursive;
       font-size:35px;
       margin-top: 1em;
-      margin-left: 10%;
+      margin-left: 5%;
       margin-bottom: 0.25em;
-      margin-right: 30%;
-      color:orange;
-      background-color:white;
+      
+      width: 45%;
+      color:white;
+      background-color:orangered;
       padding: 0.3em;
-    opacity:0.95; }
+      opacity:0.95; 
+      border-radius: 10px;
+     transition: width 1s;
+    }
+
+    a {
+        color: whitesmoke;
+    }
+    a:hover {
+      color: orangered;
+    }
+  
+  #exercises:hover {
+      animation-timing-function: ease;
+      width: 28%;
+      background-color: brown;
+      transition: 1s;
+
+    }
     
     #weekly-exercises {font-family: 'Ceviche One', cursive;
       font-size:35px;
       margin-top: 1em;
-      margin-left: 10%;
+      margin-left: 5%;
       margin-bottom: 0.25em;
-      margin-right: 30%;
-      
-      background-color:white;
+      width: 45%;
+      background-color:orangered;
       padding: 0.3em;
-      color:orange;
+      color:white;
       opacity:0.95;
+      border-radius: 10px;
+      transition: width 1s;
     }
-  
+   
+    #weekly-exercises:hover {
+      animation-timing-function: ease;
+      width: 28%;
+      background-color: brown;
+      transition: 1s;
+    }
+
+   /* @keyframes bs {
+      from{width:45%;}
+      to{width:28%;}
+    }*/
+    
+
+  #me{
+    float:left;
+    display: block;
+    height: 100vh;
+    position: absolute;
+    left: 60%;
+    top:10%;
+    
+  }
     
     #projects {font-family: 'Ceviche One', cursive;
       font-size:35px;
       margin-top: 1em;
-      margin-left: 10%;
-      margin-right: 30%;
+      margin-left: 5%;
+      
       margin-bottom: 0.25em;
-      color:orange;
-      background-color:white;
+      width: 45%;
+      color:white;
+      background-color:orangered;
       padding: 0.3em;
-      opacity:0.95;}
+      opacity:0.95;
+      border-radius: 10px;
+      transition: width 1s;}
+       
+      #projects:hover {
+        aanimation-timing-function: ease;
+        width: 28%;
+        background-color: brown;
+        transition: 1s;
+      }
 
       #bio{font-family: 'Emilys Candy', cursive;
            font-size:25px;
@@ -64,6 +122,9 @@
           margin-bottom: 2em;
           
       }
+      #bio:hover{
+        color:brown;
+      }
 
       .section {font-family: 'Sedgwick Ave', cursive;
         font-family: 'Emilys Candy', cursive;
@@ -73,3 +134,5 @@
           margin-top:0.8em;
           margin-bottom: 1em;
       }
+
+      
