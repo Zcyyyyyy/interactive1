@@ -107,7 +107,7 @@
       transition: width 1s;}
        
       #projects:hover {
-        aanimation-timing-function: ease;
+        animation-timing-function: ease;
         width: 28%;
         background-color: brown;
         transition: 1s;
