@@ -9,10 +9,10 @@
     margin-left:-50px;
   animation-name: ex;
   animation-duration: 1.5s;
-  
-  animation-iteration-count: 2;
+   animation-iteration-count: 2;
   animation-direction: alternate;
   animation-timing-function: ease-in-out;
+  transform-origin:center center;
 }
 
   .mother:hover{
@@ -29,10 +29,10 @@ body {
 }
 
 @keyframes ex {
-    0%   {width: 50px; height: 50px;background: rgb(185, 126, 224);}
-    25%  {width: 300px; height: 300px; background-color: rgb(245, 19, 106);}
-    50%  {width: 70px; height: 70px;background: rgb(201, 51, 181);}
-    100% {width: 200px; height: 200px; background-color: rgb(200, 97, 231); }
+    0%   {transform:scale(1); background: rgb(185, 126, 224);}
+    25%  {transform:scale(6); background-color: rgb(245, 19, 106);}
+    50%  {transform:scale(2); background: rgb(201, 51, 181);}
+    100% {transform:scale(4); background-color: rgb(200, 97, 231); }
   }
 
   @keyframes color {
@@ -40,3 +40,4 @@ body {
    50% {background-color: rgb(7, 7, 7)};
    100% {background: rgb(247, 247, 247);}
   }
+
