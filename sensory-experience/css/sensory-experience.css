@@ -25,6 +25,11 @@ img{
     left:50%;
     margin-top:-271px;
     margin-left:-273px;
+    animation-name: gif ;
+   animation-duration: 1.6s;
+   animation-iteration-count: 2;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
 
 }
 
@@ -48,4 +53,12 @@ body {
    50% {background-color: rgb(7, 7, 7)};
    100% {background: rgb(247, 247, 247);}
   }
+
+  @keyframes gif {
+    0%   { opacity: 1;}
+    85% {opacity: .85;}
+   100% { opacity: 0;}
+  }
+
+
 
