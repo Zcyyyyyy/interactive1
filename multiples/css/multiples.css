@@ -4,12 +4,13 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 body {
     background: black;
 }
 #desktop {
     display: inline;
-    color: black;
+    color: rgb(145, 43, 43);
     display: inline;
 }
 img {width: 100%;
@@ -26,7 +27,7 @@ img {width: 100%;
     }
     #tablet {
         display: inline;
-        color: white;
+       
     }
     #desktop,
     #mobile,
