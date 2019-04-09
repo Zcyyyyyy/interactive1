@@ -20,11 +20,21 @@ body {
         height: 1030px;
         background: rgb(240, 184, 230);
         position: absolute;
+        color: azure;
         left:782px;
         opacity: 0;
         }
+        #text_one{
+            margin-left: 50px;
+            margin-top: 50px;
+            width:400px;
+            font-size: 20px;
+    font-family: 'BioRhyme', serif;
+        }
 #one_h:hover {
               opacity: 1;
+              z-index: 1;
+              
           }
 
 #two {
@@ -267,8 +277,219 @@ body {
     }
 #twentythree_h:hover {
         opacity: 1;
+        z-index: 1;
+    }
+    #two_one {
+        position: absolute;
+        top:3090px;
+        left:-6px;
+        padding: 1em;
+    }
+    #two_two {
+         position: absolute;
+         top:3090px;
+         left:409px;
+         padding: 1em;
+    }
+    #two_three {
+        position: absolute;
+        top:3090px;
+        left:753px;
+        padding: 1em;
+    }
+    #two_four {
+        position: absolute;
+        top:3398px;
+        left:-6px;
+        padding: 1em;
+    }
+    #two_four_h {
+    
+        position: absolute;
+        top:3398px;
+        left:-6px;;
+        opacity: 0;
+        
+        
+        }
+        #two_four_h:hover {
+            opacity: 1;
+            z-index: 1;
+        }
+    #two_five {
+        position: absolute;
+        top:3346px;
+        left:409px;
+        padding: 1em;
+    }
+    #two_six {
+        position: absolute;
+        top:3796px;
+        left:-6px;
+        padding: 1em;
+    }
+    #two_seven {
+        position: absolute;
+        top:3604px;
+        left:409px;
+        padding: 1em;
+    }
+   #two_seven_h {
+    
+        position: absolute;
+        top:3604px;
+        left:435px;
+        opacity: 0;
+        
+        }
+        #two_seven_h:hover {
+            opacity: 1;
+        }
+    #two_eight {
+        position: absolute;
+        top:4296px;
+        left:819px;
+        padding: 1em;
+    }
+    #two_nine {
+        position: absolute;
+        top:5057px;
+        left:819px;
+        padding: 1em;
+    }
+    #two_ten {
+        position: absolute;
+        top:4107px;
+        left:-3px;
+        padding: 1em;
+    }
+    #two_eleven {
+        position: absolute;
+        top:4838px;
+        left:42px;
+        padding: 1em;
+    }
+    #three_one {
+        position: absolute;
+        top:5504px;
+        left:42px;
+        padding: 1em;
+    }
+    #three_two {
+        position: absolute;
+        top:6113px;
+        left:175px;
+        padding: 1em;
+    }
+    #three_three {
+        position: absolute;
+        top:6836px;
+        left:534px;
+        padding: 1em;
+    }
+    #three_three_h {
+        width: 210px;
+        height: 570px;
+        background: rgb(240, 184, 230);
+        position: absolute;
+        top:6865px;
+        left:565px;
+        opacity: 0;
+        }
+        #three_three_h:hover {
+              opacity: 1;
+          }
+          #text_two{
+            margin-left: 10px;
+            margin-top: 10px;
+            margin-right: 10px;
+            width:200px;
+            font-size: 19px;
+            color: azure;
+            font-family: 'Roboto', sans-serif;
+
+    
+        }
+
+    #three_four {
+        position: absolute;
+        top:7641px;
+        left:510px;
+        padding: 1em;
+    }
+    #three_six_h{
+        background-color:rgb(240, 184, 230);
+        widows: 200px;
+        height: 200px;
+        margin-left: 70px;
+        font-size: 30px;
+        color: azure;
+        font-family: 'Roboto', sans-serif;
+        opacity: 0;
     }
 
+    #three_six_h:hover {
+        opacity: 1;
+    }
+    #three_seven_h{
+        background-color:rgb(240, 184, 230);
+        widows: 200px;
+        height: 200px;
+        margin-left: 70px;
+        font-size: 30px;
+        color: azure;
+        font-family: 'Roboto', sans-serif;
+        opacity: 0;
+    }
+
+    #three_seven_h:hover {
+        opacity: 1;
+    }
+    #three_eight_h{
+        background-color:rgb(240, 184, 230);
+        widows: 200px;
+        height: 200px;
+        margin-left: 70px;
+        font-size: 30px;
+        color: azure;
+        font-family: 'Roboto', sans-serif;
+        opacity: 0;
+    }
+
+    #three_eight_h:hover {
+        opacity: 1;
+    }
+    #three_nine_h{
+        background-color:rgb(240, 184, 230);
+        widows: 200px;
+        height: 200px;
+        margin-left: 70px;
+        font-size: 30px;
+        color: azure;
+        font-family: 'Roboto', sans-serif;
+        opacity: 0;
+    }
+
+    #three_nine_h:hover {
+        opacity: 1;
+    }
+
+    .grid_image{
+        height: 100%;
+    }
+    
+    
+    .grid-container {
+        position:absolute;
+        top:8500px;
+        width:1280px;
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px;
+        grid-template-rows: 200px;
+        grid-gap: 96px;
+        margin: 96px;
+        padding-bottom: 200px;
+      }
 #middle,
 #small {
     display: none;
