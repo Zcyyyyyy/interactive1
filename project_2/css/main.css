@@ -1,6 +1,23 @@
 body{
-    background-color: black
+    background-color: lightblue;
+    animation: body 60s alternate infinite;
 }
+@keyframes body {
+    0% {background-color:  rgb(215, 239, 247)}
+    15% {background-color: skyblue}
+    20%{background-color:  rgb(135, 206, 235)}
+     25%{background-color:  rgb(0, 191, 255)}
+     30%{background-color:  rgb(0, 178, 228)}
+     45%{background-color:  rgb(28,162,227)}
+     55%{background-color:  rgb(107,166,249)}
+     65%{background-color:  rgb(93, 137, 199)}
+     75%{background-color:  rgb(65, 93, 133)}
+     85%{background-color:  rgb(49, 66, 88)}
+     95%{background-color:  rgb(34, 44, 56)}
+     100%{background-color:  rgb(23, 28, 34)}
+     
+       
+  }
 .grid-item {
     position: relative;
   }
@@ -2228,7 +2245,7 @@ body{
     /* 框 Group*/
 #kz_one{
     width: 15px;
-    height: 476px;
+    height: 587px;
     top: 0px;
     left: 0px;
     border: 4px orange solid;
@@ -2242,7 +2259,7 @@ body{
 }
 #kz_three{
     width: 15px;
-    height: 476px;
+    height: 587px;
     top: 0px;
     left: 1061px;
     border: 4px orange solid;
@@ -2250,7 +2267,7 @@ body{
 #kz_four{
     height: 15px;
     width: 1076px;
-    top: 461px;
+    top: 572px;
     left: 0px;
     border: 4px orange solid;
 }
@@ -2271,23 +2288,36 @@ body{
 #kz_seven{
     height: 60px;
     width: 60px;
-    top: 416px;
+    top: 527px;
     left: 0px;
     border: 4px orange solid;
 }
 #kz_eight{
     height: 60px;
     width: 60px;
-    top: 416px;
+    top: 527px;
     left: 1016px;
     border: 4px orange solid;
 }
 #kz_nine{
-    height: 396px;
+    height: 507px;
     width: 996px;
     top: 40px;
     left: 40px;
     border: 4px orange solid;
+    
+}
+#text_one{
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width:796px;
+    font-size: 26px;
+    font-family: 'Geo', sans-serif;
+    color: orange;
+    line-height: 1.6;
+    
+    
 }
 
 /* .....................Pattern.....................*/
@@ -2301,7 +2331,7 @@ body{
     grid-template-columns: 240px ;
     grid-auto-rows: 240px;
     margin-left: 40%;
-    margin-top: 10%;
+    margin-top: 20%;
     }
 
     /* pattern Group*/
@@ -2439,6 +2469,7 @@ body{
     grid-auto-rows: 240px 120px 120px 120px 150px 120px;
     margin-left: 10%;
     margin-top: 10%;
+    margin-bottom: 10%;
     
     }
 
