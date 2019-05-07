@@ -1,0 +1,4008 @@
+body{
+    background-color: black
+}
+.grid-item {
+    position: relative;
+  }
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 120px 120px 120px 120px 120px 120px 120px 120px 120px;
+    grid-auto-rows: 120px;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-right: 10%;
+    
+  }
+
+   
+  .shape {
+     border: 2px orange solid;
+     position: absolute;
+      }
+
+/* A Group*/
+#a_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#a_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+}
+#a_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+}
+#a_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+}
+#a_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+}
+#a_six{
+    height: 15px;
+    width: 52px;
+    top: 22px;
+    left: 22px;
+}
+#a_seven{
+    height: 67px;
+    width: 15px;
+    top: 22px;
+    left: 59px;
+}
+#a_eight{
+    height: 15px;
+    width: 52px;
+    top: 59px;
+    left: 22px;
+}
+ 
+/* B Group*/
+#b_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#b_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+}
+#b_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+}
+#b_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+}
+#b_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+}
+#b_six{
+    height: 15px;
+    width: 52px;
+    top: 22px;
+    left: 22px;
+}
+#b_seven{
+    height: 67px;
+    width: 15px;
+    top: 22px;
+    left: 59px;
+}
+#b_eight{
+    height: 15px;
+    width: 30px;
+    top: 47px;
+    left: 44px;
+}
+#b_nine{
+    height: 15px;
+    width: 52px;
+    top: 74px;
+    left: 22px;
+}
+
+/* C Group*/
+#c_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#c_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+}
+#c_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+}
+#c_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+}
+#c_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+}
+#c_six{
+    height: 15px;
+    width: 52px;
+    top: 22px;
+    left: 22px;
+}
+#c_seven{
+    height: 15px;
+    width: 52px;
+    top: 74px;
+    left: 22px;
+}
+#c_eight{
+    height: 25px;
+    width: 15px;
+    top: 22px;
+    left: 59px;
+}
+#c_nine{
+    height: 25px;
+    width: 15px;
+    top: 64px;
+    left: 59px;
+}
+
+/* D Group*/
+#d_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#d_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+}
+#d_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+}
+#d_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+}
+#d_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+}
+#d_six{
+    height: 15px;
+    width: 52px;
+    top: 22px;
+    left: 22px;
+}
+#d_seven{
+    height: 15px;
+    width: 52px;
+    top: 74px;
+    left: 22px;
+}
+#d_eight{
+    height: 23px;
+    width: 15px;
+    top: 44px;
+    left: 59px;
+}
+
+/* E Group*/
+#e_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#e_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+}
+#e_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+}
+#e_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+}
+#e_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+}
+#e_six{
+    height: 15px;
+    width: 52px;
+    top: 22px;
+    left: 22px;
+}
+#e_seven{
+    height: 15px;
+    width: 52px;
+    top: 74px;
+    left: 22px;
+}
+#e_eight{
+    height: 15px;
+    width: 30px;
+    top: 47px;
+    left: 22px;
+}
+
+/* F Group*/
+#f_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#f_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+}
+#f_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+}
+#f_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+}
+#f_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+}
+#f_six{
+    height: 15px;
+    width: 52px;
+    top: 22px;
+    left: 22px;
+}
+#f_seven{
+    height: 15px;
+    width: 30px;
+    top: 47px;
+    left: 22px;
+}
+
+/* G Group*/
+#g_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#g_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+}
+#g_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+}
+#g_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+}
+#g_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+}
+#g_six{
+    height: 15px;
+    width: 52px;
+    top: 22px;
+    left: 22px;
+}
+#g_seven{
+    height: 15px;
+    width: 52px;
+    top: 74px;
+    left: 22px;
+}
+#g_eight{
+    height: 7px;
+    width: 15px;
+    top: 59px;
+    left: 59px;
+}
+
+/* H Group*/
+#h_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#h_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+}
+#h_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+}
+#h_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+}
+#h_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+}
+#h_six{
+    height: 15px;
+    width: 52px;
+    top: 47px;
+    left: 22px;
+}
+#h_seven{
+    height: 67px;
+    width: 15px;
+    top: 22px;
+    left: 59px;
+}
+
+/* I Group*/
+#i_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#i_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+}
+#i_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+}
+#i_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+}
+#i_five{
+    height: 41px;
+    width: 15px;
+    top: 74px;
+    left: 22px;
+}
+#i_six{
+    height: 15px;
+    width: 52px;
+    top: 22px;
+    left: 22px;
+}
+#i_seven{
+    height: 15px;
+    width: 52px;
+    top: 74px;
+    left: 22px;
+}
+#i_eight{
+    height: 67px;
+    width: 15px;
+    top: 22px;
+    left: 42px;
+}
+
+/* J Group*/
+#j_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#j_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+}
+#j_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+}
+#j_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+}
+#j_five{
+    height: 48px;
+    width: 15px;
+    top: 67px;
+    left: 22px;
+}
+#j_six{
+    height: 15px;
+    width: 52px;
+    top: 22px;
+    left: 22px;
+}
+#j_seven{
+    height: 15px;
+    width: 35px;
+    top: 74px;
+    left: 22px;
+}
+#j_eight{
+    height: 67px;
+    width: 15px;
+    top: 22px;
+    left: 42px;
+}
+
+/* K Group*/
+#k_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#k_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+}
+#k_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+}
+#k_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+}
+#k_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+}
+#k_six{
+    height: 15px;
+    width: 30px;
+    top: 47px;
+    left: 22px;
+}
+#k_seven{
+    height: 16px;
+    width: 15px;
+    top: 27px;
+    left: 59px;
+}
+#k_eight{
+    height: 23px;
+    width: 15px;
+    top: 66px;
+    left: 59px;
+}
+
+/* L Group*/
+#l_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#l_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+}
+#l_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+}
+#l_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+}
+#l_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+}
+#l_six{
+    height: 15px;
+    width: 52px;
+    top: 74px;
+    left: 22px;
+}
+
+/* M Group*/
+#m_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#m_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+}
+#m_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+}
+#m_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+}
+#m_five{
+    height: 94px;
+    width: 13px;
+    top: 22px;
+    left: 22px;
+}
+#m_six{
+    height: 13px;
+    width: 32px;
+    top: 22px;
+    left: 22px;
+}
+#m_seven{
+    height: 67px;
+    width: 13px;
+    top: 22px;
+    left: 41px;
+}
+#m_eight{
+    height: 13px;
+    width: 32px;
+    top: 76px;
+    left: 41px;
+}
+#m_nine{
+    height: 67px;
+    width: 13px;
+    top: 22px;
+    left: 60px;
+}
+#m_ten{
+    height: 13px;
+    width: 32px;
+    top: 22px;
+    left: 60px;
+}
+#m_eleven{
+    height: 67px;
+    width: 13px;
+    top: 22px;
+    left: 79px;
+}
+
+/* n Group*/
+#n_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#n_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+}
+#n_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+}
+#n_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+}
+#n_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+}
+#n_six{
+    height: 15px;
+    width: 36px;
+    top: 22px;
+    left: 22px;
+}
+#n_seven{
+    height: 67px;
+    width: 15px;
+    top: 22px;
+    left: 43px;
+}
+#n_eight{
+    height: 15px;
+    width: 36px;
+    top: 75px;
+    left: 43px;
+}
+#n_nine{
+    height: 67px;
+    width: 15px;
+    top: 22px;
+    left: 64px;
+}
+
+/* O Group*/
+#o_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#o_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+}
+#o_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+}
+#o_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+}
+#o_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+}
+#o_six{
+    height: 15px;
+    width: 52px;
+    top: 22px;
+    left: 22px;
+}
+#o_seven{
+    height: 15px;
+    width: 52px;
+    top: 74px;
+    left: 22px;
+}
+#o_eight{
+    height: 67px;
+    width: 15px;
+    top: 22px;
+    left: 59px;
+}
+
+/* P Group*/
+#p_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#p_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+}
+#p_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+}
+#p_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+}
+#p_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+}
+#p_six{
+    height: 15px;
+    width: 52px;
+    top: 22px;
+    left: 22px;
+}
+#p_seven{
+    height: 52px;
+    width: 15px;
+    top: 22px;
+    left: 59px;
+}
+#p_eight{
+    height: 15px;
+    width: 52px;
+    top: 59px;
+    left: 22px;
+}
+
+/* Q Group*/
+#q_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#q_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+}
+#q_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+}
+#q_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+}
+#q_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+}
+#q_six{
+    height: 15px;
+    width: 52px;
+    top: 22px;
+    left: 22px;
+}
+#q_seven{
+    height: 15px;
+    width: 52px;
+    top: 74px;
+    left: 22px;
+}
+#q_eight{
+    height: 67px;
+    width: 15px;
+    top: 22px;
+    left: 59px;
+}
+#q_nine{
+    height: 15px;
+    width: 15px;
+    top: 74px;
+    left: 80px;
+}
+
+/* R Group*/
+#r_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#r_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+}
+#r_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+}
+#r_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+}
+#r_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+}
+#r_six{
+    height: 15px;
+    width: 52px;
+    top: 22px;
+    left: 22px;
+}
+#r_seven{
+    height: 23px;
+    width: 15px;
+    top: 22px;
+    left: 59px;
+}
+#r_eight{
+        height: 15px;
+        width: 35px;
+        top: 47px;
+        left: 22px;
+    }
+#r_nine{
+        height: 23px;
+        width: 15px;
+        top: 66px;
+        left: 59px;
+    }
+
+    /* s Group*/
+#s_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#s_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+}
+#s_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+}
+#s_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+}
+#s_five{
+    height: 46px;
+    width: 15px;
+    top: 69px;
+    left: 22px;
+}
+#s_six{
+    height: 15px;
+    width: 52px;
+    top: 74px;
+    left: 22px;
+}
+#s_seven{
+    height: 42px;
+    width: 15px;
+    top: 47px;
+    left: 59px;
+}
+#s_eight{
+    height: 15px;
+    width: 52px;
+    top: 47px;
+    left: 22px;
+}
+#s_nine{
+    height: 40px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+}
+#s_ten{
+    height: 15px;
+    width: 52px;
+    top: 22px;
+    left: 22px;
+}
+#s_eleven{
+    height: 19px;
+    width: 15px;
+    top: 22px;
+    left: 59px;
+}
+
+/* T Group*/
+#t_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#t_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+}
+#t_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+}
+#t_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+}
+#t_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 40px;
+}
+#t_six{
+    height: 15px;
+    width: 52px;
+    top: 22px;
+    left: 22px;
+}
+
+/* U Group*/
+#u_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#u_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+}
+#u_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+}
+#u_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+}
+#u_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+}
+#u_six{
+    height: 15px;
+    width: 52px;
+    top: 74px;
+    left: 22px;
+}
+#u_seven{
+    height: 67px;
+    width: 15px;
+    top: 22px;
+    left: 59px;
+}
+
+/* V Group*/
+#v_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#v_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+}
+#v_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+}
+#v_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+}
+#v_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+}
+#v_six{
+    height: 30px;
+    width: 15px;
+    top: 59px;
+    left: 43px;
+}
+#v_seven{
+    height: 67px;
+    width: 15px;
+    top: 22px;
+    left: 64px;
+}
+
+/* w Group*/
+#w_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#w_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+}
+#w_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+}
+#w_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+}
+#w_five{
+    height: 94px;
+    width: 13px;
+    top: 22px;
+    left: 22px;
+}
+#w_six{
+    height: 13px;
+    width: 32px;
+    top: 76px;
+    left: 22px;
+}
+#w_seven{
+    height: 67px;
+    width: 13px;
+    top: 22px;
+    left: 41px;
+}
+#w_eight{
+    height: 13px;
+    width: 32px;
+    top: 22px;
+    left: 41px;
+}
+#w_nine{
+    height: 67px;
+    width: 13px;
+    top: 22px;
+    left: 60px;
+}
+#w_ten{
+    height: 13px;
+    width: 32px;
+    top: 76px;
+    left: 60px;
+}
+#w_eleven{
+    height: 67px;
+    width: 13px;
+    top: 22px;
+    left: 79px;
+}
+
+ /* X Group*/
+ #x_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#x_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+}
+#x_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+}
+#x_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+}
+#x_five{
+    height: 46px;
+    width: 15px;
+    top: 69px;
+    left: 22px;
+}
+#x_six{
+    height: 32px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+}
+#x_seven{
+    height: 7px;
+    width: 15px;
+    top: 58px;
+    left: 43px;
+}
+#x_eight{
+    height: 32px;
+    width: 15px;
+    top: 22px;
+    left: 63px;
+}
+#x_nine{
+    height: 25px;
+    width: 15px;
+    top: 68px;
+    left: 63px;
+}
+
+/* Y Group*/
+#y_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#y_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+}
+#y_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+}
+#y_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+}
+#y_five{
+    height: 68px;
+    width: 15px;
+    top: 47px;
+    left: 40px;
+}
+#y_six{
+    height: 15px;
+    width: 52px;
+    top: 47px;
+    left: 22px;
+}
+#y_seven{
+    height: 40px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+}
+#y_eight{
+    height: 40px;
+    width: 15px;
+    top: 22px;
+    left: 59px;
+}
+
+/* Z Group*/
+#z_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#z_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+}
+#z_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+}
+#z_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+}
+#z_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 40px;
+}
+#z_six{
+    height: 13px;
+    width: 32px;
+    top: 76px;
+    left: 40px;
+}
+#z_seven{
+    height: 13px;
+    width: 32px;
+    top: 22px;
+    left: 22px;
+}
+
+/* .....................Numbers....................*/
+.grid-item2 {
+    position: relative;
+  }
+
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 90px 90px 90px 90px 90px ;
+    grid-auto-rows: 120px;
+    margin-left: 10%;
+    margin-top: 5%;
+    }
+
+    /* 1 Group*/
+#one_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#one_two{
+    height: 15px;
+    width: 86px;
+    top: 0px;
+    left: 0px;
+}
+#one_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 71px;
+}
+#one_four{
+    height: 15px;
+    width: 64px;
+    top: 101px;
+    left: 22px;
+}
+#one_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 31px;
+}
+#one_six{
+    height: 15px;
+    width: 24px;
+    top: 31px;
+    left: 22px;
+}
+
+/* 2 Group*/
+#two_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#two_two{
+    height: 15px;
+    width: 86px;
+    top: 0px;
+    left: 0px;
+}
+#two_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 71px;
+}
+#two_four{
+    height: 15px;
+    width: 64px;
+    top: 101px;
+    left: 22px;
+}
+#two_five{
+    height: 57px;
+    width: 15px;
+    top: 58px;
+    left: 22px;
+}
+#two_six{
+    height: 15px;
+    width: 34px;
+    top: 22px;
+    left: 22px;
+}
+#two_seven{
+    height: 51px;
+    width: 15px;
+    top: 22px;
+    left: 41px;
+}
+#two_eight{
+    height: 15px;
+    width: 34px;
+    top: 58px;
+    left: 22px;
+}
+
+/* 3 Group*/
+#three_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#three_two{
+    height: 15px;
+    width: 86px;
+    top: 0px;
+    left: 0px;
+}
+#three_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 71px;
+}
+#three_four{
+    height: 15px;
+    width: 64px;
+    top: 101px;
+    left: 22px;
+}
+#three_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 41px;
+}
+#three_six{
+    height: 15px;
+    width: 34px;
+    top: 22px;
+    left: 22px;
+}
+#three_seven{
+    height: 15px;
+    width: 34px;
+    top: 58px;
+    left: 22px;
+}
+
+/* 4 Group*/
+#four_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#four_two{
+    height: 15px;
+    width: 86px;
+    top: 0px;
+    left: 0px;
+}
+#four_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 71px;
+}
+#four_four{
+    height: 15px;
+    width: 64px;
+    top: 101px;
+    left: 22px;
+}
+#four_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 41px;
+}
+#four_six{
+    height: 44px;
+    width: 15px;
+    top: 29px;
+    left: 22px;
+}
+#four_seven{
+    height: 15px;
+    width: 34px;
+    top: 58px;
+    left: 22px;
+}
+
+/* 5 Group*/
+#five_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#five_two{
+    height: 15px;
+    width: 86px;
+    top: 0px;
+    left: 0px;
+}
+#five_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 71px;
+}
+#five_four{
+    height: 15px;
+    width: 64px;
+    top: 101px;
+    left: 22px;
+}
+#five_five{
+    height: 57px;
+    width: 15px;
+    top: 58px;
+    left: 41px;
+}
+#five_six{
+    height: 15px;
+    width: 34px;
+    top: 22px;
+    left: 22px;
+}
+#five_seven{
+    height: 51px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+}
+#five_eight{
+    height: 15px;
+    width: 34px;
+    top: 58px;
+    left: 22px;
+}
+
+ /* 6 Group*/
+ #six_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#six_two{
+    height: 15px;
+    width: 86px;
+    top: 0px;
+    left: 0px;
+}
+#six_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 71px;
+}
+#six_four{
+    height: 15px;
+    width: 64px;
+    top: 101px;
+    left: 22px;
+}
+#six_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+}
+#six_six{
+    height: 15px;
+    width: 24px;
+    top: 22px;
+    left: 22px;
+}
+#six_seven{
+    height: 57px;
+    width: 15px;
+    top: 58px;
+    left: 44px;
+}
+#six_eight{
+    height: 15px;
+    width: 37px;
+    top: 58px;
+    left: 22px;
+}
+
+ /* 7 Group*/
+ #seven_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#seven_two{
+    height: 15px;
+    width: 86px;
+    top: 0px;
+    left: 0px;
+}
+#seven_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 71px;
+}
+#seven_four{
+    height: 15px;
+    width: 64px;
+    top: 101px;
+    left: 22px;
+}
+#seven_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 41px;
+}
+#seven_six{
+    height: 15px;
+    width: 34px;
+    top: 22px;
+    left: 22px;
+}
+
+/* 8 Group*/
+#eight_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#eight_two{
+    height: 15px;
+    width: 86px;
+    top: 0px;
+    left: 0px;
+}
+#eight_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 71px;
+}
+#eight_four{
+    height: 15px;
+    width: 64px;
+    top: 101px;
+    left: 22px;
+}
+#eight_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+}
+#eight_six{
+    height: 15px;
+    width: 37px;
+    top: 22px;
+    left: 22px;
+}
+#eight_seven{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 44px;
+}
+#eight_eight{
+    height: 15px;
+    width: 37px;
+    top: 58px;
+    left: 22px;
+}
+
+/* 9 Group*/
+#nine_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#nine_two{
+    height: 15px;
+    width: 86px;
+    top: 0px;
+    left: 0px;
+}
+#nine_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 71px;
+}
+#nine_four{
+    height: 15px;
+    width: 64px;
+    top: 101px;
+    left: 22px;
+}
+#nine_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 44px;
+}
+#nine_six{
+    height: 15px;
+    width: 37px;
+    top: 22px;
+    left: 22px;
+}
+#nine_seven{
+    height: 51px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+}
+#nine_eight{
+    height: 15px;
+    width: 37px;
+    top: 58px;
+    left: 22px;
+}
+
+/* 0 Group*/
+#zero_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#zero_two{
+    height: 15px;
+    width: 86px;
+    top: 0px;
+    left: 0px;
+}
+#zero_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 71px;
+}
+#zero_four{
+    height: 15px;
+    width: 64px;
+    top: 101px;
+    left: 22px;
+}
+#zero_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+}
+#zero_six{
+    height: 15px;
+    width: 37px;
+    top: 22px;
+    left: 22px;
+}
+#zero_seven{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 44px;
+}
+
+
+  /* .....................Punctuations....................*/
+.grid-item3 {
+     position: relative;
+  }
+
+
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 90px 90px 90px 90px 90px 90px ;
+    grid-auto-rows: 120px;
+    margin-right: 12%;
+    margin-top: -17%;
+    float: right;
+    }
+
+    /* " Group*/
+#dqm_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#dqm_two{
+    height: 15px;
+    width: 86px;
+    top: 0px;
+    left: 0px;
+}
+#dqm_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 71px;
+}
+#dqm_four{
+    height: 15px;
+    width: 64px;
+    top: 101px;
+    left: 22px;
+}
+#dqm_five{
+    height: 15px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+}
+#dqm_six{
+    height: 15px;
+    width: 15px;
+    top: 22px;
+    left: 43px;
+}
+
+/* "" Group*/
+#dqmb_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#dqmb_two{
+    height: 15px;
+    width: 86px;
+    top: 0px;
+    left: 0px;
+}
+#dqmb_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 71px;
+}
+#dqmb_four{
+    height: 15px;
+    width: 64px;
+    top: 101px;
+    left: 22px;
+}
+#dqmb_five{
+    height: 15px;
+    width: 15px;
+    top: 79px;
+    left: 29px;
+}
+#dqmb_six{
+    height: 15px;
+    width: 15px;
+    top: 79px;
+    left: 49px;
+}
+
+/* . Group*/
+#pr_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#pr_two{
+    height: 15px;
+    width: 86px;
+    top: 0px;
+    left: 0px;
+}
+#pr_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 71px;
+}
+#pr_four{
+    height: 15px;
+    width: 64px;
+    top: 101px;
+    left: 22px;
+}
+#pr_five{
+    height: 30px;
+    width: 30px;
+    top: 64px;
+    left: 22px;
+}
+
+/* , Group*/
+#co_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#co_two{
+    height: 15px;
+    width: 86px;
+    top: 0px;
+    left: 0px;
+}
+#co_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 71px;
+}
+#co_four{
+    height: 15px;
+    width: 64px;
+    top: 101px;
+    left: 22px;
+}
+#co_five{
+    height: 15px;
+    width: 15px;
+    top: 79px;
+    left: 22px;
+}
+
+/* ! Group*/
+#em_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#em_two{
+    height: 15px;
+    width: 86px;
+    top: 0px;
+    left: 0px;
+}
+#em_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 71px;
+}
+#em_four{
+    height: 15px;
+    width: 64px;
+    top: 101px;
+    left: 22px;
+}
+#em_five{
+    height: 15px;
+    width: 15px;
+    top: 79px;
+    left: 22px;
+}
+#em_six{
+    height: 50px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+}
+
+/* ? Group*/
+#qm_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+}
+#qm_two{
+    height: 15px;
+    width: 86px;
+    top: 0px;
+    left: 0px;
+}
+#qm_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 71px;
+}
+#qm_four{
+    height: 15px;
+    width: 64px;
+    top: 101px;
+    left: 22px;
+}
+#qm_five{
+    height: 21px;
+    width: 15px;
+    top: 51px;
+    left: 22px;
+}
+#qm_six{
+    height: 15px;
+    width: 34px;
+    top: 22px;
+    left: 22px;
+}
+#qm_seven{
+    height: 42px;
+    width: 15px;
+    top: 22px;
+    left: 41px;
+}
+#qm_eight{
+    height: 13px;
+    width: 34px;
+    top: 51px;
+    left: 22px;
+}
+#qm_nine{
+    height: 15px;
+    width: 15px;
+    top: 79px;
+    left: 22px;
+}
+
+/* .....................[GE].....................*/
+.grid-item4 {
+    position: relative;
+ }
+
+
+.grid-container4 {
+    display: grid;
+    grid-template-columns: 240px 240px 240px 240px 120px ;
+    grid-auto-rows: 240px;
+    margin-left: 10%;
+    margin-top: 10%;
+   }
+
+   /* big G Group*/
+#gb_one{
+    width: 30px;
+    height: 232px;
+    top: 0px;
+    left: 0px;
+    border: 4px orange solid;
+}
+#gb_two{
+    height: 30px;
+    width: 232px;
+    top: 0px;
+    left: 0px;
+    border: 4px orange solid;
+}
+#gb_three{
+    width: 30px;
+    height: 232px;
+    top: 0px;
+    left: 202px;
+    border: 4px orange solid;
+}
+#gb_four{
+    height: 30px;
+    width: 188px;
+    top: 202px;
+    left: 44px;
+    border: 4px orange solid;
+}
+#gb_five{
+    height: 188px;
+    width: 30px;
+    top: 44px;
+    left: 44px;
+    border: 4px orange solid;
+}
+#gb_six{
+    height: 30px;
+    width: 104px;
+    top: 44px;
+    left: 44px;
+    border: 4px orange solid;
+}
+#gb_seven{
+    height: 30px;
+    width: 104px;
+    top: 148px;
+    left: 44px;
+    border: 4px orange solid;
+}
+#gb_eight{
+    height: 14px;
+    width: 30px;
+    top: 118px;
+    left: 118px;
+    border: 4px orange solid;
+}
+
+/* E Group*/
+#eb_one{
+    width: 30px;
+    height: 232px;
+    top: 0px;
+    left: 0px;
+    border: 4px orange solid;
+}
+#eb_two{
+    height: 30px;
+    width: 232px;
+    top: 0px;
+    left: 0px;
+    border: 4px orange solid;
+}
+#eb_three{
+    width: 30px;
+    height: 232px;
+    top: 0px;
+    left: 202px;
+    border: 4px orange solid;
+}
+#eb_four{
+    height: 30px;
+    width: 188px;
+    top: 202px;
+    left: 44px;
+    border: 4px orange solid;
+}
+#eb_five{
+    height: 188px;
+    width: 30px;
+    top: 44px;
+    left: 44px;
+    border: 4px orange solid;
+}
+#eb_six{
+    height: 30px;
+    width: 104px;
+    top: 44px;
+    left: 44px;
+    border: 4px orange solid;
+}
+#eb_seven{
+    height: 30px;
+    width: 104px;
+    top: 148px;
+    left: 44px;
+    border: 4px orange solid;
+}
+#eb_eight{
+    height: 30px;
+    width: 60px;
+    top: 94px;
+    left: 44px;
+    border: 4px orange solid;
+}
+
+
+/* .....................Description.....................*/
+.grid-item5 {
+    position: relative;
+   }
+
+
+.grid-container5 {
+    display: grid;
+    grid-template-columns: 1080px ;
+    grid-auto-rows: 480px;
+    margin-left: 10%;
+    margin-top: 0%;
+    }
+
+    /* 框 Group*/
+#kz_one{
+    width: 15px;
+    height: 476px;
+    top: 0px;
+    left: 0px;
+    border: 4px orange solid;
+}
+#kz_two{
+    height: 15px;
+    width:1076px;
+    top: 0px;
+    left: 0px;
+    border: 4px orange solid;
+}
+#kz_three{
+    width: 15px;
+    height: 476px;
+    top: 0px;
+    left: 1061px;
+    border: 4px orange solid;
+}
+#kz_four{
+    height: 15px;
+    width: 1076px;
+    top: 461px;
+    left: 0px;
+    border: 4px orange solid;
+}
+#kz_five{
+    height: 60px;
+    width: 60px;
+    top: 0px;
+    left: 0px;
+    border: 4px orange solid;
+}
+#kz_six{
+    height: 60px;
+    width: 60px;
+    top: 0px;
+    left: 1016px;
+    border: 4px orange solid;
+}
+#kz_seven{
+    height: 60px;
+    width: 60px;
+    top: 416px;
+    left: 0px;
+    border: 4px orange solid;
+}
+#kz_eight{
+    height: 60px;
+    width: 60px;
+    top: 416px;
+    left: 1016px;
+    border: 4px orange solid;
+}
+#kz_nine{
+    height: 396px;
+    width: 996px;
+    top: 40px;
+    left: 40px;
+    border: 4px orange solid;
+}
+
+/* .....................Pattern.....................*/
+.grid-item6 {
+    position: relative;
+    }
+
+
+.grid-container6 {
+    display: grid;
+    grid-template-columns: 240px ;
+    grid-auto-rows: 240px;
+    margin-left: 40%;
+    margin-top: 10%;
+    }
+
+    /* pattern Group*/
+#pt_one{
+    width: 30px;
+    height: 232px;
+    top: 0px;
+    left: 0px;
+    border: 4px orange solid;
+}
+#pt_two{
+    height: 30px;
+    width: 232px;
+    top: 0px;
+    left: 0px;
+    border: 4px orange solid;
+}
+#pt_three{
+    width: 30px;
+    height: 232px;
+    top: 0px;
+    left: 202px;
+    border: 4px orange solid;
+}
+#pt_four{
+    height: 30px;
+    width: 232px;
+    top: 202px;
+    left: 0px;
+    border: 4px orange solid;
+}
+#pt_five{
+    height: 98px;
+    width: 98px;
+    top: 0px;
+    left: 0px;
+    border: 4px orange solid;
+}
+#pt_six{
+    height: 98px;
+    width: 98px;
+    top: 0px;
+    left: 134px;
+    border: 4px orange solid;
+}
+#pt_seven{
+    height: 98px;
+    width: 98px;
+    top: 134px;
+    left: 0px;
+    border: 4px orange solid;
+}
+#pt_eight{
+    height: 98px;
+    width: 98px;
+    top: 134px;
+    left: 134px;
+    border: 4px orange solid;
+}
+#pt_nine{
+    height: 48px;
+    width: 48px;
+    top: 34px;
+    left: 34px;
+    border: 4px orange solid;
+}
+#pt_ten{
+    height: 48px;
+    width: 48px;
+    top: 34px;
+    left: 150px;
+    border: 4px orange solid;
+}
+#pt_eleven{
+    height: 48px;
+    width: 48px;
+    top: 150px;
+    left: 34px;
+    border: 4px orange solid;
+}
+#pt_twelve{
+    height: 48px;
+    width: 48px;
+    top: 150px;
+    left: 150px;
+    border: 4px orange solid;
+}
+#pt_thirteen{
+    height: 100px;
+    width: 100px;
+    top: 66px;
+    left: 66px;
+    border: 4px orange solid;
+}
+ 
+#pt_fifteen{
+    height: 16px;
+    width: 16px;
+    top: 0px;
+    left: 0px;
+    border: 4px orange solid;
+}
+#pt_sixteen{
+    height: 16px;
+    width: 16px;
+    top: 0px;
+    left: 216px;
+    border: 4px orange solid;
+}
+#pt_seventeen{
+    height: 16px;
+    width: 16px;
+    top: 216px;
+    left: 0px;
+    border: 4px orange solid;
+}
+#pt_eighteen{
+    height: 16px;
+    width: 16px;
+    top: 216px;
+    left: 216px;
+    border: 4px orange solid;
+}
+
+
+/* .....................Name Date.....................*/
+.grid-item7 {
+    position: relative;
+    }
+
+
+.grid-container7 {
+    display: grid;
+    grid-template-columns: 120px 120px 120px 120px 120px 120px 120px 120px 120px;
+    grid-auto-rows: 240px 120px 120px 120px 150px 120px;
+    margin-left: 10%;
+    margin-top: 10%;
+    
+    }
+
+
+/* B big Group*/
+#nd_one{
+    grid-column: 1 / span 2;
+    
+}
+
+#bb_one{
+    width: 30px;
+    height: 232px;
+    top: 0px;
+    left: 0px;
+    border: 4px orange solid;
+}
+#bb_two{
+    height: 30px;
+    width: 232px;
+    top: 0px;
+    left: 0px;
+    border: 4px orange solid;
+}
+#bb_three{
+    width: 30px;
+    height: 232px;
+    top: 0px;
+    left: 202px;
+    border: 4px orange solid;
+}
+#bb_four{
+    height: 30px;
+    width: 188px;
+    top: 202px;
+    left: 44px;
+    border: 4px orange solid;
+}
+#bb_five{
+    height: 188px;
+    width: 30px;
+    top: 44px;
+    left: 44px;
+    border: 4px orange solid;
+}
+#bb_six{
+    height: 30px;
+    width: 104px;
+    top: 44px;
+    left: 44px;
+    border: 4px orange solid;
+}
+#bb_seven{
+    height: 134px;
+    width: 30px;
+    top: 44px;
+    left: 118px;
+    border: 4px orange solid;
+}
+#bb_eight{
+    height: 30px;
+    width: 60px;
+    top: 94px;
+    left: 88px;
+    border: 4px orange solid;
+}
+#bb_nine{
+    height: 30px;
+    width: 104px;
+    top: 148px;
+    left: 44px;
+    border: 4px orange solid;
+}
+
+/* Big Y Group*/
+#nd_two{
+    grid-column: 3 / span 2;
+   
+}
+#by_one{
+    width: 30px;
+    height: 232px;
+    top: 0px;
+    left: 0px;
+    border: 4px orange solid;
+}
+#by_two{
+    height: 30px;
+    width: 232px;
+    top: 0px;
+    left: 0px;
+    border: 4px orange solid;
+}
+#by_three{
+    width: 30px;
+    height: 232px;
+    top: 0px;
+    left: 202px;
+    border: 4px orange solid;
+}
+#by_four{
+    height: 30px;
+    width: 188px;
+    top: 202px;
+    left: 44px;
+    border: 4px orange solid;
+}
+#by_five{
+    height: 136px;
+    width: 30px;
+    top: 94px;
+    left: 80px;
+    border: 4px orange solid;
+}
+#by_six{
+    height: 30px;
+    width: 104px;
+    top: 94px;
+    left: 44px;
+    border: 4px orange solid;
+}
+#by_seven{
+    height: 80px;
+    width: 30px;
+    top: 44px;
+    left: 44px;
+    border: 4px orange solid;
+}
+#by_eight{
+    height: 80px;
+    width: 30px;
+    top: 44px;
+    left: 118px;
+    border: 4px orange solid;
+}
+
+/* C name Group*/
+#nd_three{
+    grid-column: 1;
+    grid-row: 2;
+    
+}
+#cn_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#cn_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#cn_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+    border: 2px orange solid;
+}
+#cn_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#cn_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#cn_six{
+    height: 15px;
+    width: 52px;
+    top: 22px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#cn_seven{
+    height: 15px;
+    width: 52px;
+    top: 74px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#cn_eight{
+    height: 25px;
+    width: 15px;
+    top: 22px;
+    left: 59px;
+    border: 2px orange solid;
+}
+#cn_nine{
+    height: 25px;
+    width: 15px;
+    top: 64px;
+    left: 59px;
+    border: 2px orange solid;
+}
+
+
+#nd_four{
+    grid-column: 2;
+    grid-row: 2;
+   
+}
+/* H Name Group*/
+#hn_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#hn_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#hn_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+    border: 2px orange solid;
+}
+#hn_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#hn_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#hn_six{
+    height: 15px;
+    width: 52px;
+    top: 47px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#hn_seven{
+    height: 67px;
+    width: 15px;
+    top: 22px;
+    left: 59px;
+    border: 2px orange solid;
+}
+
+/* E Name Group*/
+#nd_five{
+    grid-column: 3;
+    grid-row: 2;
+    
+}
+
+#en_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#en_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#en_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+    border: 2px orange solid;
+}
+#en_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#en_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#en_six{
+    height: 15px;
+    width: 52px;
+    top: 22px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#en_seven{
+    height: 15px;
+    width: 52px;
+    top: 74px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#en_eight{
+    height: 15px;
+    width: 30px;
+    top: 47px;
+    left: 22px;
+    border: 2px orange solid;
+}
+
+/* N Name Group*/
+#nd_six{
+    grid-column: 4;
+    grid-row: 2;
+    
+}
+#nn_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#nn_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#nn_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+    border: 2px orange solid;
+}
+#nn_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#nn_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#nn_six{
+    height: 15px;
+    width: 36px;
+    top: 22px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#nn_seven{
+    height: 67px;
+    width: 15px;
+    top: 22px;
+    left: 43px;
+    border: 2px orange solid;
+}
+#nn_eight{
+    height: 15px;
+    width: 36px;
+    top: 75px;
+    left: 43px;
+    border: 2px orange solid;
+}
+#nn_nine{
+    height: 67px;
+    width: 15px;
+    top: 22px;
+    left: 64px;
+    border: 2px orange solid;
+}
+
+/* Y Name Group*/
+#nd_seven{
+    grid-column: 5;
+    grid-row: 2;
+    
+}
+#yn_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#yn_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#yn_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+    border: 2px orange solid;
+}
+#yn_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#yn_five{
+    height: 68px;
+    width: 15px;
+    top: 47px;
+    left: 40px;
+    border: 2px orange solid;
+}
+#yn_six{
+    height: 15px;
+    width: 52px;
+    top: 47px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#yn_seven{
+    height: 40px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#yn_eight{
+    height: 40px;
+    width: 15px;
+    top: 22px;
+    left: 59px;
+    border: 2px orange solid;
+}
+
+/* U Name Group*/
+#nd_eight{
+    grid-column: 6;
+    grid-row: 2;
+    
+}
+#un_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#un_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#un_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+    border: 2px orange solid;
+}
+#un_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#un_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#un_six{
+    height: 15px;
+    width: 52px;
+    top: 74px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#un_seven{
+    height: 67px;
+    width: 15px;
+    top: 22px;
+    left: 59px;
+    border: 2px orange solid;
+}
+#nd_nine{
+    grid-column: 7;
+    grid-row: 2;
+   
+}
+
+/* A Big Group*/
+#nd_ten{
+    grid-column: 1 / span 2;
+    grid-row: 3 / span 2;
+  
+}
+#ab_one{
+    width: 30px;
+    height: 232px;
+    top: 0px;
+    left: 0px;
+    border: 4px orange solid;
+}
+#ab_two{
+    height: 30px;
+    width: 232px;
+    top: 0px;
+    left: 0px;
+    border: 4px orange solid;
+}
+#ab_three{
+    width: 30px;
+    height: 232px;
+    top: 0px;
+    left: 202px;
+    border: 4px orange solid;
+}
+#ab_four{
+    height: 30px;
+    width: 188px;
+    top: 202px;
+    left: 44px;
+    border: 4px orange solid;
+}
+#ab_five{
+    height: 188px;
+    width: 30px;
+    top: 44px;
+    left: 44px;
+    border: 4px orange solid;
+}
+#ab_six{
+    height: 30px;
+    width: 104px;
+    top: 44px;
+    left: 44px;
+    border: 4px orange solid;
+}
+#ab_seven{
+    height: 134px;
+    width: 30px;
+    top: 44px;
+    left: 118px;
+    border: 4px orange solid;
+}
+#ab_eight{
+    height: 30px;
+    width: 104px;
+    top: 118px;
+    left: 44px;
+    border: 4px orange solid;
+}
+
+/* T Big Group*/
+#nd_eleven{
+    grid-column: 3 / span 2;
+    grid-row: 3 / span 2;
+   
+}
+#tb_one{
+    width: 30px;
+    height: 232px;
+    top: 0px;
+    left: 0px;
+    border: 4px orange solid;
+}
+#tb_two{
+    height: 30px;
+    width: 232px;
+    top: 0px;
+    left: 0px;
+    border: 4px orange solid;
+}
+#tb_three{
+    width: 30px;
+    height: 232px;
+    top: 0px;
+    left: 202px;
+    border: 4px orange solid;
+}
+#tb_four{
+    height: 30px;
+    width: 188px;
+    top: 202px;
+    left: 44px;
+    border: 4px orange solid;
+}
+#tb_five{
+    height: 188px;
+    width: 30px;
+    top: 44px;
+    left: 80px;
+    border: 4px orange solid;
+}
+#tb_six{
+    height: 30px;
+    width: 104px;
+    top: 44px;
+    left: 44px;
+    border: 4px orange solid;
+}
+
+/* Z Group*/
+#nd_twelve{
+    grid-column: 5;
+    grid-row: 3;
+    
+}
+#zn_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#zn_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#zn_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+    border: 2px orange solid;
+}
+#zn_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#zn_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 40px;
+    border: 2px orange solid;
+}
+#zn_six{
+    height: 13px;
+    width: 32px;
+    top: 76px;
+    left: 40px;
+    border: 2px orange solid;
+}
+#zn_seven{
+    height: 13px;
+    width: 32px;
+    top: 22px;
+    left: 22px;
+    border: 2px orange solid;
+}
+
+/* H Last Name Group*/
+#nd_thirteen{
+    grid-column: 6;
+    grid-row: 3;
+  
+}
+#hln_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#hln_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#hln_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+    border: 2px orange solid;
+}
+#hln_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#hln_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#hln_six{
+    height: 15px;
+    width: 52px;
+    top: 47px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#hln_seven{
+    height: 67px;
+    width: 15px;
+    top: 22px;
+    left: 59px;
+    border: 2px orange solid;
+}
+
+/* A Group*/
+#nd_fourteen{
+    grid-column: 7;
+    grid-row: 3;
+   
+}
+#an_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#an_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#an_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+    border: 2px orange solid;
+}
+#an_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#an_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#an_six{
+    height: 15px;
+    width: 52px;
+    top: 22px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#an_seven{
+    height: 67px;
+    width: 15px;
+    top: 22px;
+    left: 59px;
+    border: 2px orange solid;
+}
+#an_eight{
+    height: 15px;
+    width: 52px;
+    top: 59px;
+    left: 22px;
+    border: 2px orange solid;
+}
+
+
+
+/* N Last Name Group*/
+#nd_sixteen{
+    grid-column: 8;
+    grid-row: 3;
+    
+}
+#nln_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#nln_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#nln_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+    border: 2px orange solid;
+}
+#nln_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#nln_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#nln_six{
+    height: 15px;
+    width: 36px;
+    top: 22px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#nln_seven{
+    height: 67px;
+    width: 15px;
+    top: 22px;
+    left: 43px;
+    border: 2px orange solid;
+}
+#nln_eight{
+    height: 15px;
+    width: 36px;
+    top: 75px;
+    left: 43px;
+    border: 2px orange solid;
+}
+#nln_nine{
+    height: 67px;
+    width: 15px;
+    top: 22px;
+    left: 64px;
+    border: 2px orange solid;
+}
+
+
+/* G Name Group*/
+#nd_eighteen{
+    grid-column: 9;
+    grid-row: 3;
+    
+}
+#gn_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#gn_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#gn_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+    border: 2px orange solid;
+}
+#gn_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#gn_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#gn_six{
+    height: 15px;
+    width: 52px;
+    top: 22px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#gn_seven{
+    height: 15px;
+    width: 52px;
+    top: 74px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#gn_eight{
+    height: 7px;
+    width: 15px;
+    top: 59px;
+    left: 59px;
+    border: 2px orange solid;
+}
+
+/* 2 Year Group*/
+#nd_nineteen{
+    grid-column: 1;
+    grid-row: 5;
+    
+}
+#two_oney{
+    width: 15px;
+    height: 146px;
+    top: 0px;
+    left: 0px;
+    border: 3px orange solid;
+}
+#two_twoy{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+    border: 3px orange solid;
+}
+#two_threey{
+    width: 15px;
+    height: 146px;
+    top: 0px;
+    left: 99px;
+    border: 3px orange solid;
+}
+#two_foury{
+    height: 15px;
+    width: 90px;
+    top: 131px;
+    left: 24px;
+    border: 3px orange solid;
+}
+#two_fivey{
+    height: 72px;
+    width: 15px;
+    top: 74px;
+    left: 24px;
+    border: 3px orange solid;
+}
+#two_sixy{
+    height: 15px;
+    width: 47px;
+    top: 24px;
+    left: 24px;
+    border: 3px orange solid;
+}
+#two_seveny{
+    height: 65px;
+    width: 15px;
+    top: 24px;
+    left: 56px;
+    border: 3px orange solid;
+}
+#two_eighty{
+    height: 15px;
+    width: 47px;
+    top: 74px;
+    left: 24px;
+    border: 3px orange solid;
+}
+
+/* 0 Year Group*/
+#nd_twenty{
+    grid-column: 2;
+    grid-row: 5;
+   
+}
+#zero_oney{
+    width: 15px;
+    height: 146px;
+    top: 0px;
+    left: 0px;
+    border: 3px orange solid;
+}
+#zero_twoy{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+    border: 3px orange solid;
+}
+#zero_threey{
+    width: 15px;
+    height: 146px;
+    top: 0px;
+    left: 99px;
+    border: 3px orange solid;
+}
+#zero_foury{
+    height: 15px;
+    width: 90px;
+    top: 131px;
+    left: 24px;
+    border: 3px orange solid;
+}
+#zero_fivey{
+    height: 122px;
+    width: 15px;
+    top: 24px;
+    left: 24px;
+    border: 3px orange solid;
+}
+#zero_sixy{
+    height: 15px;
+    width: 47px;
+    top: 24px;
+    left: 24px;
+    border: 3px orange solid;
+}
+#zero_seveny{
+    height: 122px;
+    width: 15px;
+    top: 24px;
+    left: 56px;
+    border: 3px orange solid;
+}
+
+/* 1 Year Group*/
+#nd_twenty_one{
+    grid-column: 3;
+    grid-row: 5;
+    
+}
+ #one_oney{
+    width: 15px;
+    height: 146px;
+    top: 0px;
+    left: 0px;
+    border: 3px orange solid;
+    }
+#one_twoy{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+    border: 3px orange solid;
+    }
+#one_threey{
+    width: 15px;
+    height: 146px;
+    top: 0px;
+    left: 99px;
+    border: 3px orange solid;
+    }
+#one_foury{
+    height: 15px;
+    width: 90px;
+    top: 131px;
+    left: 24px;
+    border: 3px orange solid;
+    }
+#one_fivey{
+        height: 122px;
+        width: 15px;
+        top: 24px;
+        left: 47px;
+        border: 3px orange solid;
+    }
+#one_sixy{
+        height: 15px;
+        width: 38px;
+        top: 34px;
+        left: 24px;
+        border: 3px orange solid;
+    }
+
+/* 9 Year Group*/
+#nd_twenty_two{
+    grid-column: 4;
+    grid-row: 5;
+   
+}
+#nine_oney{
+    width: 15px;
+    height: 146px;
+    top: 0px;
+    left: 0px;
+    border: 3px orange solid;
+}
+#nine_twoy{
+    height: 15px;
+    width: 114px;
+    top: 0px;
+    left: 0px;
+    border: 3px orange solid;
+}
+#nine_threey{
+    width: 15px;
+    height: 146px;
+    top: 0px;
+    left: 99px;
+    border: 3px orange solid;
+}
+#nine_foury{
+    height: 15px;
+    width: 90px;
+    top: 131px;
+    left: 24px;
+    border: 3px orange solid;
+}
+#nine_fivey{
+    height: 122px;
+    width: 15px;
+    top: 24px;
+    left: 56px;
+    border: 3px orange solid;
+}
+#nine_sixy{
+    height: 15px;
+    width: 47px;
+    top: 24px;
+    left: 24px;
+    border: 3px orange solid;
+}
+#nine_seveny{
+    height: 65px;
+    width: 15px;
+    top: 24px;
+    left: 24px;
+    border: 3px orange solid;
+}
+#nine_eighty{
+    height: 15px;
+    width: 47px;
+    top: 74px;
+    left: 24px;
+    border: 3px orange solid;
+}
+
+/* M Time Group*/
+#nd_twenty_three{
+    grid-column: 4;
+    grid-row: 6;
+   
+}
+#mt_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#mt_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#mt_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+    border: 2px orange solid;
+}
+#mt_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#mt_five{
+    height: 94px;
+    width: 13px;
+    top: 22px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#mt_six{
+    height: 13px;
+    width: 32px;
+    top: 22px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#mt_seven{
+    height: 67px;
+    width: 13px;
+    top: 22px;
+    left: 41px;
+    border: 2px orange solid;
+}
+#mt_eight{
+    height: 13px;
+    width: 32px;
+    top: 76px;
+    left: 41px;
+    border: 2px orange solid;
+}
+#mt_nine{
+    height: 67px;
+    width: 13px;
+    top: 22px;
+    left: 60px;
+    border: 2px orange solid;
+}
+#mt_ten{
+    height: 13px;
+    width: 32px;
+    top: 22px;
+    left: 60px;
+    border: 2px orange solid;
+}
+#mt_eleven{
+    height: 67px;
+    width: 13px;
+    top: 22px;
+    left: 79px;
+    border: 2px orange solid;
+}
+
+
+#nd_twenty_four{
+    grid-column: 5;
+    grid-row: 6;
+    
+}
+/* A Time Group*/
+#at_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#at_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#at_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+    border: 2px orange solid;
+}
+#at_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#at_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#at_six{
+    height: 15px;
+    width: 52px;
+    top: 22px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#at_seven{
+    height: 67px;
+    width: 15px;
+    top: 22px;
+    left: 59px;
+    border: 2px orange solid;
+}
+#at_eight{
+    height: 15px;
+    width: 52px;
+    top: 59px;
+    left: 22px;
+    border: 2px orange solid;
+}
+
+/* Y Time Group*/
+#nd_twenty_five{
+    grid-column: 6;
+    grid-row: 6;
+    
+}
+#yt_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#yt_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#yt_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+    border: 2px orange solid;
+}
+#yt_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#yt_five{
+    height: 68px;
+    width: 15px;
+    top: 47px;
+    left: 40px;
+    border: 2px orange solid;
+}
+#yt_six{
+    height: 15px;
+    width: 52px;
+    top: 47px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#yt_seven{
+    height: 40px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#yt_eight{
+    height: 40px;
+    width: 15px;
+    top: 22px;
+    left: 59px;
+    border: 2px orange solid;
+}
+
+
+#nd_twenty_six{
+    grid-column: 7;
+    grid-row: 6;
+    
+}
+
+
+/* 8 Time Group*/
+#nd_twenty_seven{
+    grid-column: 7;
+    grid-row: 6;
+    
+}
+#eightt_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 30px;
+    border: 2px orange solid;
+}
+#eightt_two{
+    height: 15px;
+    width: 86px;
+    top: 0px;
+    left: 30px;
+    border: 2px orange solid;
+}
+#eightt_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+    border: 2px orange solid;
+}
+#eightt_four{
+    height: 15px;
+    width: 64px;
+    top: 101px;
+    left: 52px;
+    border: 2px orange solid;
+}
+#eightt_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 52px;
+    border: 2px orange solid;
+}
+#eightt_six{
+    height: 15px;
+    width: 37px;
+    top: 22px;
+    left: 52px;
+    border: 2px orange solid;
+}
+#eightt_seven{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 74px;
+    border: 2px orange solid;
+}
+#eightt_eight{
+    height: 15px;
+    width: 37px;
+    top: 58px;
+    left: 52px;
+    border: 2px orange solid;
+}
+
+/* T Time Group*/
+#nd_twenty_eight{
+    grid-column: 8;
+    grid-row: 6;
+    
+}
+#tt_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#tt_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#tt_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+    border: 2px orange solid;
+}
+#tt_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#tt_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 40px;
+    border: 2px orange solid;
+}
+#tt_six{
+    height: 15px;
+    width: 52px;
+    top: 22px;
+    left: 22px;
+    border: 2px orange solid;
+}
+
+
+#nd_twenty_nine{
+    grid-column: 9;
+    grid-row: 6;
+   
+}
+/* H Time Group*/
+#nd_thirteen{
+    grid-column: 6;
+    grid-row: 3;
+    
+}
+#ht_one{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#ht_two{
+    height: 15px;
+    width: 116px;
+    top: 0px;
+    left: 0px;
+    border: 2px orange solid;
+}
+#ht_three{
+    width: 15px;
+    height: 116px;
+    top: 0px;
+    left: 101px;
+    border: 2px orange solid;
+}
+#ht_four{
+    height: 15px;
+    width: 94px;
+    top: 101px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#ht_five{
+    height: 94px;
+    width: 15px;
+    top: 22px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#ht_six{
+    height: 15px;
+    width: 52px;
+    top: 47px;
+    left: 22px;
+    border: 2px orange solid;
+}
+#ht_seven{
+    height: 67px;
+    width: 15px;
+    top: 22px;
+    left: 59px;
+    border: 2px orange solid;
+}
