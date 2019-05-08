@@ -1,6 +1,6 @@
 body{
     background-color: lightblue;
-    animation: body 60s alternate infinite;
+    animation: body 30s alternate infinite;
 }
 @keyframes body {
     0% {background-color:  rgb(215, 239, 247)}
@@ -8,9 +8,10 @@ body{
     20%{background-color:  rgb(135, 206, 235)}
      25%{background-color:  rgb(0, 191, 255)}
      30%{background-color:  rgb(0, 178, 228)}
-     45%{background-color:  rgb(28,162,227)}
-     55%{background-color:  rgb(107,166,249)}
-     65%{background-color:  rgb(93, 137, 199)}
+     40%{background-color:  rgb(28,162,227)}
+     45%{background-color:  rgb(107,166,249)}
+     50%{background-color:  rgb(93, 137, 199)}
+     60%{background-color:  rgb(93, 137, 199)}
      75%{background-color:  rgb(65, 93, 133)}
      85%{background-color:  rgb(49, 66, 88)}
      95%{background-color:  rgb(34, 44, 56)}
@@ -36,7 +37,18 @@ body{
    
   .shape {
      border: 2px orange solid;
+     mix-blend-mode: darken;
      position: absolute;
+     animation: contrast 30s alternate infinite;
+  }
+      
+      @keyframes contrast {
+        0% {border-color: rgb(255, 115, 0);}
+        20%{border-color: rgb(238, 148, 12);}
+        30%{border-color: rgb(238, 178, 12);}
+        45%{border-color: rgb(238, 196, 12);}
+        65%{border-color: rgb(255, 145, 0);}
+        100%{border-color: orange;}
       }
 
 /* A Group*/
@@ -2316,9 +2328,17 @@ body{
     font-family: 'Geo', sans-serif;
     color: orange;
     line-height: 1.6;
-    
-    
-}
+    animation: change 30s alternate infinite;
+    }
+
+    @keyframes change {
+        0% {color: rgb(255, 115, 0);}
+        20%{color: rgb(238, 148, 12);}
+        30%{color: rgb(238, 178, 12);}
+        45%{color: rgb(238, 196, 12);}
+        65%{color: rgb(255, 145, 0);}
+        100%{color: orange;}
+      }
 
 /* .....................Pattern.....................*/
 .grid-item6 {
