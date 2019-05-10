@@ -1,19 +1,19 @@
 body{
     background-color: lightblue;
-    animation: body 30s alternate infinite;
+    animation: body 300s alternate infinite;
 }
 @keyframes body {
     0% {background-color:  rgb(215, 239, 247)}
-    15% {background-color: skyblue}
-    20%{background-color:  rgb(135, 206, 235)}
-     25%{background-color:  rgb(0, 191, 255)}
-     30%{background-color:  rgb(0, 178, 228)}
-     40%{background-color:  rgb(28,162,227)}
-     45%{background-color:  rgb(107,166,249)}
-     50%{background-color:  rgb(93, 137, 199)}
-     60%{background-color:  rgb(93, 137, 199)}
-     75%{background-color:  rgb(65, 93, 133)}
-     85%{background-color:  rgb(49, 66, 88)}
+    15% {background-color: rgb(119, 185, 211)}
+    20%{background-color:  rgb(118, 180, 204)}
+     25%{background-color:  rgb(3, 177, 235)}
+     30%{background-color:  rgb(2, 124, 158)}
+     40%{background-color:  rgb(19, 125, 179)}
+     45%{background-color:  rgb(96, 147, 219)}
+     50%{background-color:  rgb(73, 111, 163)}
+     60%{background-color:  rgb(66, 97, 141)}
+     75%{background-color:  rgb(59, 81, 112)}
+     85%{background-color:  rgb(48, 59, 73)}
      95%{background-color:  rgb(34, 44, 56)}
      100%{background-color:  rgb(23, 28, 34)}
      
@@ -2328,7 +2328,7 @@ body{
     font-family: 'Geo', sans-serif;
     color: orange;
     line-height: 1.6;
-    animation: change 30s alternate infinite;
+    animation: change 300s alternate infinite;
     }
 
     @keyframes change {
